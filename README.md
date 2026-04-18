@@ -48,8 +48,7 @@ This project is built for **educational purposes** to demonstrate how basic fron
 
 🌐 Live Demo
 
-👉 Add your GitHub Pages link here
-Example: https://your-username.github.io/SkinSafe/
+👉 https://uditdeval.github.io/SkinSafe/
 
 👨‍💻 Author
 
