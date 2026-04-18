@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkinSafe - Skin Safety Check</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-orb orb-three"></div>
+
+  <nav class="top-nav">
+    <div class="nav-brand">SkinSafe</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="check.html" class="active">Skin Safety Check</a>
+      <a href="guide.html">Skin Guide</a>
+      <a href="about.html">Why SkinSafe</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+  <header class="subpage-header">
+    <span class="hero-label">Dedicated checking page</span>
+    <h1>Skin Safety Check</h1>
+    <p>Enter skincare ingredients and review whether the product may suit your skin type.</p>
+  </header>
+
+  <main class="container">
+    <section class="quick-strip">
+      <div class="strip-card">
+        <span class="strip-number">Safe</span>
+        <p>Green result for skin-friendly products</p>
+      </div>
+      <div class="strip-card">
+        <span class="strip-number">Alert</span>
+        <p>Yellow result for caution ingredients</p>
+      </div>
+      <div class="strip-card">
+        <span class="strip-number">Risk</span>
+        <p>Red result for harsh or unsuitable products</p>
+      </div>
+    </section>
+
+    <section class="checker-layout">
+      <section class="card skin-profile">
+        <h2>Your Skin Profile</h2>
+
+        <div class="form-group">
+          <label for="skin-type">Skin Type</label>
+          <select id="skin-type">
+            <option value="">Select your skin type...</option>
+            <option value="oily">Oily</option>
+            <option value="dry">Dry</option>
+            <option value="combination">Combination</option>
+            <option value="sensitive">Sensitive</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Skin Concerns</label>
+          <div class="checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" name="concerns" value="acne">
+              <span>Acne</span>
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="concerns" value="pigmentation">
+              <span>Pigmentation</span>
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="concerns" value="dryness">
+              <span>Dryness</span>
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="concerns" value="sensitivity">
+              <span>Sensitivity</span>
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="concerns" value="anti-aging">
+              <span>Anti-aging</span>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <section class="card product-input">
+        <h2>Product Ingredients</h2>
+
+        <div class="sample-tags">
+          <span>Water</span>
+          <span>Niacinamide</span>
+          <span>Glycerin</span>
+          <span>Salicylic Acid</span>
+          <span>Fragrance</span>
+          <span>Aloe Vera</span>
+        </div>
+
+        <div class="form-group">
+          <label for="ingredients">Enter Ingredients (comma-separated)</label>
+          <textarea id="ingredients" placeholder="e.g., Water, Glycerin, Niacinamide, Salicylic Acid, Fragrance, Aloe Vera"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Or Upload Product Image (UI Demo)</label>
+          <div class="upload-area" id="upload-area">
+            <span class="upload-icon">IMG</span>
+            <p>Click to upload product label</p>
+            <small id="upload-note">No image selected yet</small>
+            <input type="file" id="file-input" accept="image/*" hidden>
+          </div>
+        </div>
+
+        <button class="analyze-btn" id="analyze-btn">Analyze Ingredients</button>
+      </section>
+    </section>
+
+    <section class="card results-section" id="results-section">
+      <h2>Analysis Results</h2>
+
+      <div class="risk-badge" id="risk-badge"></div>
+      <div class="ingredients-breakdown" id="ingredients-breakdown"></div>
+
+      <div class="alternatives-section">
+        <h3>Suggested Alternative Products</h3>
+        <div class="product-cards">
+          <a href="https://www.nykaa.com/minimalist-10-niacinamide-face-serum/p/1106549" class="product-card" target="_blank" rel="noopener noreferrer">
+            <img class="product-image" src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=800&q=80" alt="Serum bottle">
+            <h4>Minimalist Niacinamide Serum</h4>
+            <p>Good for oil control and post-acne marks.</p>
+          </a>
+
+          <a href="https://www.dotandkey.com/products/ceramide-hyaluronic-moisturizer" class="product-card" target="_blank" rel="noopener noreferrer">
+            <img class="product-image" src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=80" alt="Moisturizer jar">
+            <h4>Ceramide Barrier Moisturizer</h4>
+            <p>Nice pick for dry or sensitive skin support.</p>
+          </a>
+
+          <a href="https://www.foxtale.in/products/vitamin-c-serum" class="product-card" target="_blank" rel="noopener noreferrer">
+            <img class="product-image" src="https://images.unsplash.com/photo-1601612628452-9e99ced43524?auto=format&fit=crop&w=800&q=80" alt="Vitamin C bottle">
+            <h4>Vitamin C Glow Serum</h4>
+            <p>Helps with dullness and uneven looking skin tone.</p>
+          </a>
+
+          <a href="https://www.thedermaco.com/product/1-hyaluronic-sunscreen-aqua-gel-spf-50-pa" class="product-card" target="_blank" rel="noopener noreferrer">
+            <img class="product-image" src="https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?auto=format&fit=crop&w=800&q=80" alt="Sunscreen bottle">
+            <h4>Hydrating Aqua Sunscreen</h4>
+            <p>Lightweight daily protection with a fresh finish.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 SkinSafe</p>
+    <p>Developed by UDIT DEVAL | GL BAJAJ INSTITUTE OF TECHNOLOGY AND MANAGEMENT, GREATER NOIDA</p>
+    <p>Your Personal Skincare Safety Checker 💖</p>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+    <p>This is a demo project for educational purposes only.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
