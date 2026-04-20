@@ -1,63 +1,67 @@
-# 🌿 SkinSafe – Smart Skincare Ingredient Analyzer
+# 🌿 SkinSafe — AI Skincare Checker
 
-SkinSafe is a simple and smart web-based tool that helps users check whether a skincare product is suitable for their skin type.
+🌐 **Live Demo:** https://uditdeval.github.io/SkinSafe/
 
-Users can enter product ingredients and get a clear analysis showing which ingredients are safe, risky, or need caution — making skincare decisions easier and more informed.
+---
 
-🚀 Features
+## 📌 About
 
-* ✅ Skin-type based analysis (Oily, Dry, Combination, Sensitive)
-* ⚠️ Ingredient classification: Safe, Moderate, High Risk
-* 🔍 Detailed ingredient breakdown with reasons
-* 💡 Suggested alternative skincare products
-* 🎨 Clean, modern and responsive UI
-* 📷 Image upload UI (demo-based feature)
+SkinSafe is a smart skincare checker that helps users analyze cosmetic ingredients and understand whether a product is safe for their skin.
 
-🛠️ Tech Stack
+It simplifies complex ingredient lists into easy-to-understand insights, helping users make better skincare decisions.
+
+---
+
+## ✨ Features
+
+* 🔍 Ingredient analysis for skincare products
+* ⚠️ Detects harmful or sensitive ingredients
+* 🧴 Helps users choose safe skincare products
+* 🎨 Clean and user-friendly interface
+* ⚡ Fast and lightweight (no backend required)
+* 📱 Fully responsive design
+
+---
+
+## 🛠 Tech Stack
 
 * HTML5
-* CSS3
-* JavaScript (Vanilla JS)
+* CSS3 (Custom + Bootstrap)
+* JavaScript
 
-📂 Project Structure
+---
 
-SkinSafe/
-│── index.html        # Home page
-│── check.html        # Ingredient checker
-│── guide.html        # Skin guide
-│── about.html        # About page
-│── contact.html      # Contact page
-│── privacy.html      # Privacy policy
-│── style.css         # Styling
-│── script.js         # Logic
+## 🚀 Use Case
 
-⚙️ How It Works
+Perfect for users who want to:
 
-1. Select your skin type
-2. Enter product ingredients (comma-separated)
-3. Click **Analyze Ingredients**
-4. View:
+* Check if a product is safe for their skin
+* Avoid harmful chemicals in cosmetics
+* Make informed skincare choices
 
-   * Overall risk level
-   * Ingredient-wise breakdown
-   * Suggested alternatives
+---
 
-🎯 Purpose
+## 📷 Preview
 
-This project is built for **educational purposes** to demonstrate how basic frontend development and logic can simulate an AI-based skincare assistant.
+<img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/4fb99707-53bb-4d4b-ac70-aec27cb14533" />
+<img width="1667" height="962" alt="image" src="https://github.com/user-attachments/assets/ef2c42ab-344f-43d7-88df-362aa472f4ff" />
+<img width="1663" height="934" alt="image" src="https://github.com/user-attachments/assets/80afae35-20cb-43cd-bbb0-2ddbd6b5533e" />
+<img width="1753" height="953" alt="image" src="https://github.com/user-attachments/assets/483382bc-1306-4431-b566-ac4e2b7eacc0" />
 
-🌐 Live Demo
+---
 
-👉 https://uditdeval.github.io/SkinSafe/
+## 🤝 Contributing
 
-👨‍💻 Author
+Contributions are welcome! Feel free to fork the repo and improve it.
 
-Udit Deval
-GL Bajaj Institute of Technology and Management, Greater Noida
+---
 
-⚠️ Disclaimer
+## 👨‍💻 Developed By
 
-This project is for demonstration purposes only.
-The results provided are informational and should not replace professional medical advice.
+**Udit Deval**
+🔗 https://uditdeval.github.io/SkinSafe/
+---
 
-⭐ If you like this project, feel free to star the repo!
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
